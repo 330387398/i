@@ -101,6 +101,12 @@ $('.mafia > img, .mafia > .footer > p:nth-of-type(2)').on('click', function () {
 $('.mafia > .footer > p:nth-of-type(1)').on('click', function () {
 	window.open('https://github.com/330387398/Mafia') 
 })
+$('.todolist > img, .todolist > .footer > p:nth-of-type(2)').on('click', function () {
+	window.open('https://330387398.github.io/react-project/build/index.html') 
+})
+$('.todolist > .footer > p:nth-of-type(1)').on('click', function () {
+	window.open('https://github.com/330387398/react-project') 
+})
 $('.lol > img, .lol > .footer > p:nth-of-type(2)').on('click', function () {
 	window.open('https://330387398.github.io/LOL/LOL.html') 
 })
