@@ -256,16 +256,16 @@ ol, ul, li { list-style: none; }
     filter: blur(25px);
 }
 .project > ol > .music-163 > .background {
-	background: url(./img/music-163.png);
+	background: url(https://i.loli.net/2017/09/14/59ba9371558e3.png);
 }
 .project > ol > .mafia > .background {
-	background: url(./img/mafia.jpg);
+	background: url(https://i.loli.net/2017/11/19/5a1127301b2c5.jpg);
 }
 .project > ol > .todolist > .background {
-	background: url(./img/todolist.jpg);
+	background: url(https://i.loli.net/2017/11/19/5a1127a929f32.jpg);
 }
 .project > ol > .lol > .background {
-	background: url(./img/lol.jpg);
+	background: url(https://i.loli.net/2017/11/19/5a1126ce74c4f.jpg);
 }
 .project > ol > li > .header {
 	display: flex;
@@ -392,7 +392,7 @@ ol, ul, li { list-style: none; }
     bottom: 0;
     left: 0;
     z-index: -1;
-    background: url(./img/background.jpg);
+    background: url(https://i.loli.net/2017/09/18/59bfdc95e3474.jpg);
     background-size: cover;
 }
 .skill > h1 {
@@ -416,7 +416,7 @@ ol, ul, li { list-style: none; }
     bottom: 0;
     left: 0;
     z-index: -1;
-    background: url(./img/background.jpg);
+    background: url(https://i.loli.net/2017/09/18/59bfdc95e3474.jpg);
     background-size: cover;
     overflow: hidden;
     filter: blur(25px);	
