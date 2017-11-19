@@ -19,9 +19,9 @@ $('.rightNav > svg:nth-of-type(2)').on('click', function () {
 $('.rightNav > svg:nth-of-type(3)').on('click', function () {
 	window.open('https://github.com/330387398/Tech-Blog')
 })
-// $('.rightNav > svg:nth-of-type(4)').on('click', function () {
-// 	window.location.href=''
-// })
+$('.rightNav > svg:nth-of-type(4)').on('click', function () {
+	window.location.href='https://nj01ct01.baidupcs.com/file/e985dc96031ef329078c05aa0737a041?bkt=p3-1400e985dc96031ef329078c05aa0737a041ce1bccf5000000029c4f&fid=1865780803-250528-309173369384732&time=1511057790&sign=FDTAXGERLQBHSK-DCb740ccc5511e5e8fedcff06b081203-xvOYVoMOqb1hlsln3HuZSsZdoVw%3D&to=63&size=171087&sta_dx=171087&sta_cs=0&sta_ft=pdf&sta_ct=0&sta_mt=0&fm2=MH,Yangquan,Anywhere,,shanxi,ct&vuk=1865780803&iv=0&newver=1&newfm=1&secfm=1&flow_ver=3&pkey=1400e985dc96031ef329078c05aa0737a041ce1bccf5000000029c4f&sl=79364174&expires=8h&rt=sh&r=484863405&mlogid=7478018547846101842&vbdid=639227533&fin=田宇鹏+-+前端开发+-+18592051215.pdf&fn=田宇鹏+-+前端开发+-+18592051215.pdf&rtype=1&dp-logid=7478018547846101842&dp-callid=0.1.1&hps=1&tsl=100&csl=100&csign=oS0If80yj8%2BPK1v65cy%2FUPueYsc%3D&so=0&ut=6&uter=4&serv=0&uc=3673361441&ic=1222992579&ti=220620fd8d32b115c7c7406d329a509508cc1b5a3cb1587b&by=themis'
+})
 
 
 //个人情况页面下WhyMe部分svg的样式自动调整
