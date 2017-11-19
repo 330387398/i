@@ -1,0 +1,478 @@
+/*--------------------------------------------------reset css--------------------------------------------------*/
+
+* { margin: 0; padding: 0; }
+body { background: #3A3B3F; overflow-y: scroll; }
+body > .active { display: block; }
+ol, ul, li { list-style: none; }
+
+
+/*--------------------------------------------------rightNav---------------------------------------------------*/
+
+.rightNav {
+	position: fixed;
+	right: 0;
+	padding-top: 3rem;
+	width: 15rem;
+	height: 100vh;
+	background: #D3D3D3;
+}
+.rightNav > h3 {
+	margin-left: 1rem;
+	font-size: 1.1rem;
+	color: black;
+	line-height: 1.8;
+	letter-spacing: .2rem;
+	opacity: .7;
+	cursor: default;
+}
+.rightNav > h3:nth-of-type(2) {
+	margin-left: 3rem;
+}
+.rightNav > h3:nth-of-type(3) {
+	margin-left: 5rem;
+}
+
+/*导航标签*/
+.rightNav > ol {
+	margin: 3rem 0 2rem 0;
+	font-weight: bold;
+}
+.rightNav > ol > li {
+	margin: 1rem 0;
+	padding: 1rem 0 1rem 3rem;
+	font-size: 1.1rem;
+	opacity: .8;
+	cursor: pointer;
+	transition: .3s;
+}
+.rightNav > ol > li:hover {
+	color: #29DCA9;
+	opacity: 1;
+}
+.rightNav > ol > li.active {
+	color: #29DCA9;
+	background: #3A3B3F;
+	opacity: 1;
+}
+.rightNav > ol > li > span {
+	font-size: .9rem;
+}
+
+/*svg图标*/
+.rightNav > svg {
+	float: left;
+	width: 2.5rem;
+	height: 2.5rem;
+	opacity: .5;
+	cursor: pointer;
+	transition: .3s;
+}
+@keyframes shake {
+	0% {
+		transform: scale(1, 1)
+	}
+	40% {
+		transform: scale(1.2, .8)
+	}
+	55% {
+		transform: scale(.8, 1.2)
+	}
+	70% {
+		transform: scale(1.1, .9)
+	}
+	85% {
+		transform: scale(.9, 1.1)
+	}
+	100% {
+		transform: scale(1, 1)
+	}
+}
+.rightNav > svg:hover {
+	opacity: 1;
+	animation: shake .6s;
+}
+.rightNav > svg:first-of-type {
+	margin: .3rem .5rem 0 1.8rem;
+}
+.rightNav > svg:nth-of-type(2) {
+	margin: .25rem .2rem 0 0;
+}
+.rightNav > svg:nth-of-type(3) {
+	width: 3.1rem;
+	height: 3.1rem;
+}
+.rightNav > svg:nth-of-type(4) {
+	margin: .2rem 0 0 .25rem;
+	width: 2.55rem;
+	height: 2.55rem;
+}
+
+.rightNav > img {
+	display: block;
+	margin: 7.2rem auto 1.8rem auto;
+	width: 8rem;
+	height: 8rem;
+	opacity: .8;
+}
+.rightNav > p {
+	font-size: .8rem;
+	color: black;
+	text-align: center;
+	opacity: .8;
+	cursor: default;
+}
+
+
+/*---------------------------------------------------aboutMe---------------------------------------------------*/
+
+.aboutMe {
+	display: none;
+	padding-bottom: 3rem;
+	width: calc(100% - 15rem);
+	text-align: center;
+}
+.aboutMe > div {
+	margin: 0 auto;
+	padding-top: 2rem;
+	width: 720px;
+	text-align: left;
+}
+.aboutMe > div > h3 {
+	margin-bottom: .5rem;
+	color: #29DCA9;
+}
+.aboutMe > div > h3 > span {
+	font-size: 1rem;
+}
+.aboutMe > div > p {
+	margin-left: 2rem;
+	font-size: .9rem;
+	color: white;
+	line-height: 2rem;
+}
+.aboutMe > div > p > span {
+	font-size: 1rem;
+	color: #29DCA9;
+	font-weight: bold;
+}
+.aboutMe > div > h5 {
+	margin: .5rem 0 .2rem 1rem;
+	font-size: .9rem;
+	color: #29DCA9;
+}
+.aboutMe > div:first-child {
+	display: inline-block; 
+	margin-bottom: 3rem;
+	padding-top: 4rem;
+	width: auto;
+}
+.aboutMe > div:first-child > img {
+	float: left;
+	margin-right: 3rem;
+	width: 9rem;
+	height: 9rem;
+	border-radius: 40px;
+}
+.aboutMe > div:first-child > div {
+	display: inline-block;
+	position: relative;
+	color: #29DCA9;
+	text-align: center;
+}
+.aboutMe > div:first-child h1 {
+	font-size: 2rem;
+	line-height: 3rem;
+	letter-spacing: .3rem;
+}
+.aboutMe > div:first-child h5 {
+	display: inline;
+	font-family: "黑体";
+	font-size: 1.1rem;
+	line-height: 2rem;
+}
+.aboutMe > div:first-child svg {
+	position: absolute;
+	top: 3.3rem;
+	left: 7.7rem;
+	width: 1.3rem;
+	height: 1.3rem;
+}
+.aboutMe > div:first-child h3 {
+	font-size: 1.2rem;
+	line-height: 1.8rem;
+}
+.aboutMe > div:first-child h3 > span {
+	font-size: .9rem;
+}
+.aboutMe > div:nth-of-type(2) {
+	position: relative;
+}
+.aboutMe > div:nth-of-type(2) > svg {
+	position: absolute;
+	left: 1.2rem;
+	width: 1.5rem;
+	height: 1.5rem;
+}
+.aboutMe > div:nth-of-type(2) > p {
+	display: inline;
+	margin-left: 3rem;
+}
+
+
+/*---------------------------------------------------project---------------------------------------------------*/
+
+.project {
+	display: none;
+	padding-top: 4rem;
+	width: calc(100% - 15rem);
+	text-align: center;
+}
+.project > h1 {
+	font-size: 2rem;
+	color: #29DCA9;
+}
+
+/*项目列表*/
+.project > ol {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 3rem;
+	align-items: center;
+}
+.project > ol > li {
+	position: relative;
+	margin: 4rem 0 3rem 0;
+	max-width: 650px;
+	overflow: hidden;
+}
+.project > ol > li > .background {
+	display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    filter: blur(25px);
+}
+.project > ol > .music-163 > .background {
+	background: url(./img/music-163.png);
+}
+.project > ol > .mafia > .background {
+	background: url(./img/mafia.jpg);
+}
+.project > ol > .todolist > .background {
+	background: url(./img/todolist.jpg);
+}
+.project > ol > .lol > .background {
+	background: url(./img/lol.jpg);
+}
+.project > ol > li > .header {
+	display: flex;
+}
+.project > ol > li > .header > h3 {
+	margin-left: 2rem;
+	font-size: 1.1rem;
+	color: #29DCA9;
+	line-height: 3.5rem;
+	letter-spacing: .1rem;
+	text-align: left;
+}
+.project > ol > li > .header > svg {
+	margin-left: 1rem;
+	width: 2.2rem;
+	height: 3.5rem;
+}
+.project > ol > li > img {
+	width: 100%;
+	cursor: pointer;
+}
+.project > ol > li > .content {
+	margin: 1.5rem 3rem 1.2rem 3rem;
+}
+.project > ol > li > .content > p {
+	margin: .5rem 0;
+	font-size: .9rem;
+	color: white;
+	line-height: 1.8;
+	text-align: left;
+}
+.project > ol > li > .content span {
+	color: #29DCA9;
+	font-weight: bold;
+}
+.project > ol > li > .footer {
+	padding-left: 3rem;
+	border-top: 1px solid rgba(41, 220, 169, .2);
+}
+.project > ol > li > .footer > svg {
+	float: left;
+	margin-right: 1rem;
+	width: 2.5rem;
+	height: 4rem;
+}
+.project > ol > li > .footer > .ajax {
+	margin: 0 .5rem 0 -.2rem;
+	width: 4rem;
+}
+.project > ol > li > .footer > .mafia {
+	width: 3.2rem;
+}
+.project > ol > li > .footer > .javascript {
+	margin-left: -.5rem;
+}
+.project > ol > li > .footer > .todolist {
+	margin-right: 1.6rem;
+}
+.project > ol > li > .footer > .react {
+	margin-top: -.1rem;
+	height: 4.2rem;
+}
+.project > ol > li > .footer > .html {
+	margin: .1rem 0 0 .2rem;
+	width: 2.4rem;
+}
+.project > ol > li > .footer > p {
+	float: right;
+	margin: 1rem;
+	padding: .3rem 1rem;
+	font-size: .9rem;
+	color: white;
+	line-height: 1.4rem;
+	border: 1px solid rgba(41, 220, 169, .5);
+	border-radius: 10px;
+	cursor: pointer;
+	transition: .1s;
+}
+.project > ol > li > .footer > p:nth-of-type(1) {
+	margin: 1rem 3rem 1rem .5rem;
+}
+.project > ol > li > .footer > p:hover {
+	color: #29DCA9;
+}
+
+/*项目Tab切换按钮*/
+.project > ul {
+	position: fixed;
+	top: 50%;
+	right: 17rem;
+	transition: .3s;
+}
+.project > ul > li {
+	margin: .5rem 0 .5rem 0;
+	width: .8rem;
+	height: .8rem;
+	background: #232323;
+	border-radius: 50%;
+	cursor: pointer;
+	transition: .3s;
+}
+.project > ul > li.hover {
+	margin-bottom: .9rem;
+	background: #29DCA9;
+	transform: scale(1.5);
+}
+.project > ul > li.active {
+	background: #29DCA9;
+}
+
+
+/*----------------------------------------------------skill----------------------------------------------------*/
+
+.skill {
+	display: none;
+	padding-top: 4rem;
+	width: calc(100% - 15rem);
+	color: #29DCA9;
+}
+.skill > .background {
+	position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    background: url(./img/background.jpg);
+    background-size: cover;
+}
+.skill > h1 {
+	font-size: 2rem;
+	text-align: center;
+}
+.skill > .skillList {
+	display: flex;
+	position: relative;
+	margin: 2rem auto 0 auto;
+    max-width: 960px;
+    justify-content: space-around;
+    overflow: hidden;
+}
+.skill > .skillList::after {
+	content: '';
+	display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    background: url(./img/background.jpg);
+    background-size: cover;
+    overflow: hidden;
+    filter: blur(25px);	
+}
+.skill > .skillList > ul {
+	margin: 1rem 0 2rem 0;
+	width: 40%;
+}
+.skill > .skillList h3 {
+	margin: 1rem 0 .3rem 0;
+}
+.skill > .skillList p {
+	font-size: .9rem;
+	color: white;
+	line-height: 2;
+}
+.skill > .skillLabels {
+	margin: 1.6rem auto 0 auto;
+	max-width: 720px;
+	color: white;
+}
+.skill > .skillLabels > li {
+	float: left;
+	margin: .6rem 1rem 0 0;
+	padding: .5rem 1rem;
+	font-size: .9rem;
+	background: #3A3B3F;
+	border: 2px solid gray;
+	border-radius: 10px;
+}
+.skill > .skillLabels > li.active {
+	color: #29DCA9;
+	border: 2px solid #29DCA9;
+}
+
+/*---------------------------------------------------contact---------------------------------------------------*/
+
+.contact {
+	display: none;
+	padding-top: 11rem;
+	width: calc(100% - 15rem);
+	color: #29DCA9;
+}
+.contact > h1 {
+	margin-bottom: 6rem;
+	font-size: 2rem;
+	text-align: center;
+}
+.contact > div {
+	margin: 0 auto;
+	width: 30rem;
+	text-align: center;
+}
+.contact > div > h3 {
+	margin: 3rem 0 3rem 0;
+}
+.contact > div > h3 > a {
+	color: #29DCA9;
+}
