@@ -107,9 +107,21 @@ $('.todolist > img, .todolist > .footer > p:nth-of-type(2)').on('click', functio
 $('.todolist > .footer > p:nth-of-type(1)').on('click', function () {
 	window.open('https://github.com/330387398/react-project') 
 })
+$('.weather > img, .weather > .footer > p:nth-of-type(2)').on('click', function () {
+	window.open('https://330387398.github.io/weather/weather.html') 
+})
+$('.weather > .footer > p:nth-of-type(1)').on('click', function () {
+	window.open('https://github.com/330387398/weather') 
+})
 $('.lol > img, .lol > .footer > p:nth-of-type(2)').on('click', function () {
 	window.open('https://330387398.github.io/LOL/LOL.html') 
 })
 $('.lol > .footer > p:nth-of-type(1)').on('click', function () {
 	window.open('https://github.com/330387398/LOL') 
+})
+$('.pikachu > img, .pikachu > .footer > p:nth-of-type(2)').on('click', function () {
+	window.open('https://330387398.github.io/pikachu/pikachu.html') 
+})
+$('.pikachu > .footer > p:nth-of-type(1)').on('click', function () {
+	window.open('https://github.com/330387398/pikachu') 
 })

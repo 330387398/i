@@ -264,8 +264,14 @@ ol, ul, li { list-style: none; }
 .project > ol > .todolist > .background {
 	background: url(https://i.loli.net/2017/11/19/5a1127a929f32.jpg);
 }
+.project > ol > .weather > .background {
+	background: url(https://i.loli.net/2017/11/20/5a12a2ab8573c.jpg);
+}
 .project > ol > .lol > .background {
 	background: url(https://i.loli.net/2017/11/19/5a1126ce74c4f.jpg);
+}
+.project > ol > .pikachu > .background {
+	background: url(https://i.loli.net/2017/11/20/5a12b1875ce34.jpg);
 }
 .project > ol > li > .header {
 	display: flex;
@@ -328,9 +334,15 @@ ol, ul, li { list-style: none; }
 	margin-top: -.1rem;
 	height: 4.2rem;
 }
+.project > ol > li > .footer > .shouye {
+	width: 3.2rem;
+}
 .project > ol > li > .footer > .html {
 	margin: .1rem 0 0 .2rem;
 	width: 2.4rem;
+}
+.project > ol > li > .footer > .shandian {
+	margin-top: .1rem;
 }
 .project > ol > li > .footer > p {
 	float: right;
