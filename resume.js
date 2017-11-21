@@ -20,7 +20,7 @@ $('.rightNav > svg:nth-of-type(3)').on('click', function () {
 	window.open('https://github.com/330387398/Tech-Blog')
 })
 $('.rightNav > svg:nth-of-type(4)').on('click', function () {
-	window.open('https://330387398.github.io/i/img/i/%E7%94%B0%E5%AE%87%E9%B9%8F%20-%20%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%20-%2018592051215.pdf')
+	window.open('https://330387398.github.io/i/%E7%94%B0%E5%AE%87%E9%B9%8F%20-%20%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%20-%2018592051215.pdf')
 })
 
 
