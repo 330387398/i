@@ -20,7 +20,7 @@ $('.rightNav > svg:nth-of-type(3)').on('click', function () {
 	window.open('https://github.com/330387398/Tech-Blog')
 })
 $('.rightNav > svg:nth-of-type(4)').on('click', function () {
-	window.location.href = 'https://nj01ct01.baidupcs.com/file/c5d4030f2bf03e77263cd0d0ec8354e5?bkt=p3-1400c5d4030f2bf03e77263cd0d0ec8354e557af48e000000003e98d&fid=1865780803-250528-986788755207226&time=1511180713&sign=FDTAXGERLQBHSK-DCb740ccc5511e5e8fedcff06b081203-nSqqfP9A1iQI11CdWZjH8LVKmYw%3D&to=63&size=256397&sta_dx=256397&sta_cs=1&sta_ft=pdf&sta_ct=0&sta_mt=0&fm2=MH,Yangquan,Anywhere,,shanxi,ct&vuk=1865780803&iv=0&newver=1&newfm=1&secfm=1&flow_ver=3&pkey=1400c5d4030f2bf03e77263cd0d0ec8354e557af48e000000003e98d&sl=79364174&expires=8h&rt=sh&r=279180707&mlogid=7511015575085458796&vbdid=639227533&fin=%E7%94%B0%E5%AE%87%E9%B9%8F+-+%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91+-+18592051215.pdf&fn=%E7%94%B0%E5%AE%87%E9%B9%8F+-+%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91+-+18592051215.pdf&rtype=1&dp-logid=7511015575085458796&dp-callid=0.1.1&hps=1&tsl=100&csl=100&csign=oS0If80yj8%2BPK1v65cy%2FUPueYsc%3D&so=0&ut=6&uter=4&serv=0&uc=3673361441&ic=2423298690&ti=5e666840c78f197399383e76303498c75f89a2cb22cfd470305a5e1275657320&by=themis'
+	window.open('https://330387398.github.io/i/img/i/%E7%94%B0%E5%AE%87%E9%B9%8F%20-%20%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%20-%2018592051215.pdf')
 })
 
 
